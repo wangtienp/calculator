@@ -93,7 +93,8 @@ function App() {
   return (
     <div className="App">
 
-      {/* 9 <Calculator /> */}
+      {/* 9. Calculator */}
+      <Calculator />
       {/* 8 To do list */}
       {/* <header>
         <h2>My To Do List</h2>
@@ -112,7 +113,7 @@ function App() {
          />    
       })} */}
       {/* 11 Recipe */}
-      <form onSubmit={handleSubmit}>
+      {/* <form onSubmit={handleSubmit}>
         <input type='text' value={search} onChange={handleInput} className='search-bar' placeholder='Enter recipe here' />
         <input type='submit' value={'Search'} className='submit-btn' />
       </form>
@@ -125,7 +126,8 @@ function App() {
               imgURL={item.recipe.image} />
           )
         })}
-      </div>
+      </div> */}
+      
     </div>
   );
 }
